@@ -28,7 +28,7 @@ packer.startup(function(use)
     use("hrsh7th/vim-vsnip")
     use("nvim-telescope/telescope.nvim")
     use("j-hui/fidget.nvim")
-    -- use("itchyny/lightline.vim")
+    use("itchyny/lightline.vim")
     use("folke/trouble.nvim")
     use("kyazdani42/nvim-web-devicons")
     if packer_bootstrap then packer.sync() end
