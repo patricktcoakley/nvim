@@ -1,4 +1,9 @@
 local fn = vim.fn
+local set = vim.opt
+set.tabstop = 4
+set.softtabstop = 4
+set.shiftwidth = 4
+
 local install_path = fn.stdpath("data") .. "/site/pack/packer/start/packer.nvim"
 
 if fn.empty(fn.glob(install_path)) > 0 then
